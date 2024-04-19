@@ -2,7 +2,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJustitia
-  name: justitia
+  name: Justitia Armor
   description: A black, bandaged coat with golden linings covering it.
   components:
   - type: Sprite
@@ -12,10 +12,15 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6 #ballistic plates = better protection
-        Slash: 0.6
-        Piercing: 0.3
-        Heat: 0.9
+        Blunt: 0.1 #ballistic plates = better protection
+        Slash: 0.1
+        Piercing: 0.1
+        Heat: 0.1
   - type: ExplosionResistance
-    damageCoefficient: 0.9
+    damageCoefficient: 0.001
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
 

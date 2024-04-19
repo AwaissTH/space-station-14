@@ -2,7 +2,7 @@
   name: clown horn
   parent: BaseItem
   id: ClownHorn
-  description: It goes honk honk!
+  description: isso vai honk konk
   components:
 
   - type: Sprite
@@ -10,6 +10,7 @@
     state: icon
   - type: PlaySoundOnUse
     sound: /Audio/Items/bikehorn.ogg
+    desc: PUTA MERDA, ISSO É FODA
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:
@@ -19,4 +20,4 @@
   - type: UseDelay
     delay: 1.0 
   - type: IgniteOnMeleeHit
-    fireStacks: 2
+    fireStacks: 20
